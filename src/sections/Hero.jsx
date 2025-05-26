@@ -1,11 +1,7 @@
 
 import { useRef } from "react";
 import VariableProximity from "../components/TextAnimations/VariableProximity/VariableProximity";
-
-const handleAnimationComplete = () => {
-    console.log('Animation completed!');
-}
-
+import ShinyText from "../components/TextAnimations/ShinyText/ShinyText";
 
 
 const Hero = () => {
@@ -13,7 +9,6 @@ const Hero = () => {
 
     return (
         <div className="flex flex-col items-center justify-center h-screen">                                 
-
             <div
             ref={containerRef}
             style={{position: 'relative'}}
@@ -36,6 +31,10 @@ const Hero = () => {
                 radius={100}
                 falloff='linear'
             />
+            </div>
+            <div className="flex flex-col items-center justify-center mt-2">
+                <ShinyText text="Transforming Visionary ideas into refined realities through Innovative technology" disabled={false} speed={5} className='text-center xs:max-w-xs sm:max-w-md md:max-w-full xs:text-xs sm:text-sm md:text-base' />
+                <ShinyText text="Cutting-edge Technology and Innovation" disabled={false} speed={5} className='text-center xs:max-w-xs sm:max-w-md md:max-w-full xs:text-xs sm:text-sm md:text-base' />
             </div>
         </div>
     );

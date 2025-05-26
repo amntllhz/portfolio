@@ -1,6 +1,7 @@
 @import "tailwindcss";
 @theme {
 
+    /* Breakpoints */
   --breakpoint-*: initial;
   --breakpoint-xs: 320px;
   --breakpoint-sm: 480px;
@@ -8,15 +9,28 @@
   --breakpoint-lg: 1024px;
   --breakpoint-xl: 1280px;
 
-
+    /* Colors */
   --color-primary: #010914;
   --color-accent1: #1e1b4b;
   --color-accent2: #3b0764;
   --color-accent3: #6366f1;
   --color-accent4: #e0f2fe;
   --color-accent5: #14b8a6;
-  
+
+    /* Font */
   --font-display: "Inter", sans-serif;  
+
+    /* animasi shiny text */
+  --animate-shine: shine var(--shine-speed, 5s) linear infinite;
+  
+  @keyframes shine {
+    0% {
+      background-position: 200%;
+    }
+    100% {
+      background-position: -200%;
+    }
+  }
 }
 
 
