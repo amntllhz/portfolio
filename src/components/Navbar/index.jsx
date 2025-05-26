@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import { HiMail } from "react-icons/hi";
 
 const Navbar = () => {
     return (        
@@ -10,7 +11,9 @@ const Navbar = () => {
                 <Link className="font-medium text-accent4 xs:text-xs sm:text-sm md:text-md hover:text-accent3 transition duration-300 ease-in-out">About</Link>
                 <Link className="font-medium text-accent4 xs:text-xs sm:text-sm md:text-md hover:text-accent3 transition duration-300 ease-in-out">Projects</Link>
                 </div>
-                <p className="font-bold text-accent4">AM</p>
+                <Link className="font-medium text-sm text-accent4 py-1 px-2 bg-accent1/30 hover:bg-accent3/30 transition duration-300 ease-in-out rounded-full">
+                    <HiMail size={20} className="text-accent4"/>
+                </Link>
             </div>
         </div>
 
