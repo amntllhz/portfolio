@@ -15,11 +15,13 @@
   --color-accent3: #6366f1;
   --color-accent4: #e0f2fe;
   --color-accent5: #14b8a6;
+  
+  --font-display: "Inter", sans-serif;  
 }
 
 
 :root {
-  font-family: Inter, sans-serif;  
+  /* font-family: Inter, sans-serif;   */
 }
 
 
