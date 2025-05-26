@@ -1,9 +1,12 @@
 import Navbar from "../components/Navbar"
+import { DotBackgroundDemo } from "../components/DotBackground/DotBackgroundDemo"
 
 const Home = () => {
     return (
-        <>
-            <Navbar />
+        <>  
+            <DotBackgroundDemo>
+                <Navbar />
+            </DotBackgroundDemo>
         </>
     )
 }
