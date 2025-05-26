@@ -9,7 +9,9 @@ function App() {
 
   return (
     <>
-      <Home />
+    <div className="min-h-screen pt-4 bg-[#010914]">
+        <Home />
+    </div>      
     </>
   )
 }

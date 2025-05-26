@@ -1,6 +1,16 @@
-:root {
-
-  background-color: #010914;
-
+@import "tailwindcss";
+@theme {
+  --color-primary: #010914;
+  --color-accent1: #1e1b4b;
+  --color-accent2: #3b0764;
+  --color-accent3: #6366f1;
+  --color-accent4: #e0f2fe;
+  --color-accent5: #14b8a6;
 }
+
+
+:root {
+  font-family: Inter, sans-serif;  
+}
+
 
