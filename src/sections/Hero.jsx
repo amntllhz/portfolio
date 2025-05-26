@@ -20,7 +20,7 @@ const Hero = () => {
             className="flex flex-col items-center justify-center">
             <VariableProximity
                 label={'Turn Some Ideas'}
-                className={'variable-proximity-demo text-7xl font-display font-medium text-center text-accent4'}
+                className={'variable-proximity-demo  font-medium text-center text-accent4 lg:text-7xl xs:text-4xl md:text-5xl'}
                 fromFontVariationSettings="'wght' 400, 'opsz' 9"
                 toFontVariationSettings="'wght' 1000, 'opsz' 40"
                 containerRef={containerRef}
@@ -29,7 +29,7 @@ const Hero = () => {
             />
             <VariableProximity
                 label={'Into Reality'}
-                className={'variable-proximity-demo text-7xl font-medium text-center text-accent4'}
+                className={'variable-proximity-demo  font-medium text-center text-accent4 lg:text-7xl xs:text-4xl md:text-5xl'}
                 fromFontVariationSettings="'wght' 400, 'opsz' 9"
                 toFontVariationSettings="'wght' 1000, 'opsz' 40"
                 containerRef={containerRef}
