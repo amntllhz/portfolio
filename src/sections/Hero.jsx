@@ -33,8 +33,8 @@ const Hero = () => {
             />
             </div>
             <div className="flex flex-col items-center justify-center mt-2">
-                <ShinyText text="Transforming Visionary ideas into refined realities through Innovative technology" disabled={false} speed={5} className='text-center xs:max-w-xs sm:max-w-md md:max-w-full xs:text-xs sm:text-sm md:text-base' />
-                <ShinyText text="Cutting-edge Technology and Innovation" disabled={false} speed={5} className='text-center xs:max-w-xs sm:max-w-md md:max-w-full xs:text-xs sm:text-sm md:text-base' />
+                <ShinyText text="Transforming Visionary ideas into refined realities through Innovative technology" disabled={false} speed={5} className='text-center font-display xs:max-w-xs sm:max-w-md md:max-w-full xs:text-xs sm:text-sm md:text-base' />
+                <ShinyText text="Cutting-edge Technology and Innovation" disabled={false} speed={5} className='text-center font-display xs:max-w-xs sm:max-w-md md:max-w-full xs:text-xs sm:text-sm md:text-base' />
             </div>
         </div>
     );
