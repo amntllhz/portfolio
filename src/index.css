@@ -18,12 +18,24 @@
   --color-accent5: #14b8a6;
 
     /* Font */
-  --font-display: "Inter", sans-serif;  
+  --font-display: "Manrope", sans-serif;  
 
     /* animasi shiny text */
-  --animate-shine: shine var(--shine-speed, 5s) linear infinite;
+  --animate-shine: shine var(--shine-speed, 5s) linear infinite;  
   
   @keyframes shine {
+    0% {
+      background-position: 200%;
+    }
+    100% {
+      background-position: -200%;
+    }
+  }
+
+  /* animasi shimmer */
+  --animate-shimmer: shimmer var(--shimmer-speed, 2s) linear infinite;
+  
+  @keyframes shimmer {
     0% {
       background-position: 200%;
     }
