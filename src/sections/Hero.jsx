@@ -9,7 +9,7 @@ const Hero = () => {
     const containerRef = useRef(null);
 
     return (
-        <div className="flex flex-col items-center justify-center h-screen ">                                 
+        <div className="flex flex-col items-center md:justify-center md:pt-0 xs:justify-start xs:pt-36 h-screen ">                                 
             <div
             ref={containerRef}
             style={{position: 'relative'}}
