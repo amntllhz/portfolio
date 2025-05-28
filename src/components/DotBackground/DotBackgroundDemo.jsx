@@ -1,9 +1,9 @@
 import { cn } from "@/lib/utils";
 import React from "react";
 
-export function DotBackgroundDemo({children}) {
+export function DotBackgroundDemo({children, color = "bg-primary"}) {
   return (
-    <div className="relative flex h-screen w-full items-center justify-center bg-primary">
+    <div className={cn("relative flex h-screen w-full items-center justify-center", color)}>
       <div
         className={cn(
           "absolute inset-0",
