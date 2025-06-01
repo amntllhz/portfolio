@@ -3,13 +3,24 @@ import { useRef } from "react";
 import VariableProximity from "../components/TextAnimations/VariableProximity/VariableProximity";
 import ShinyText from "../components/TextAnimations/ShinyText/ShinyText";
 import Button from "../components/Buttons/Button";
+import Aurora from "../components/Backgrounds/Aurora/Aurora";
 
 
 const Hero = () => {
     const containerRef = useRef(null);
 
     return (
-        <div className="flex flex-col items-center md:justify-center md:pt-0 xs:justify-start xs:pt-36 h-screen ">                                 
+
+        <>
+        <div className="absolute top-0 left-0 w-full h-full">
+            <Aurora
+                colorStops={["#1e1b4b", "#3b0764", "#6366f1"]}
+                blend={0.5}
+                amplitude={1.0}
+                speed={1.0}
+            />
+        </div>
+        <div className="relative flex flex-col items-center md:justify-center md:pt-0 xs:justify-start xs:pt-36 h-screen">               
             <div
             ref={containerRef}
             style={{position: 'relative'}}
@@ -36,10 +47,12 @@ const Hero = () => {
             <div className="flex flex-col items-center justify-center mt-2">
                 <ShinyText text="Transforming Visionary ideas into refined realities Cutting-edge Technology and Innovation" disabled={false} speed={5} className='text-center font-display xs:max-w-xs sm:max-w-md md:max-w-md xs:text-xs sm:text-sm md:text-base' />                
             </div>
-            <div className="flex flex-col items-center justify-center mt-3">
-                <Button text="Get In Touch" />
-            </div>
+            <div className="flex flex-row items-center justify-center mt-4 sm:gap-x-2 xs:gap-x-1.5">
+                <Button text="Donwload CV" />
+                <Button bgButton="bg-gradient-to-r from-accent1/30 via-accent3/50 to-accent1/30 " text="Get In Touch" />
+            </div>            
         </div>
+        </>
     );
 }
 
