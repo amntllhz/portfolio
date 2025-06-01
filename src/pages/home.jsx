@@ -20,6 +20,7 @@ const Home = () => {
             </FadeContent>                                   
 
             {/* Section About */}
+            <About />
             
         </>
     )
