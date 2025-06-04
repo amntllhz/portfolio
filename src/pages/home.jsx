@@ -1,5 +1,5 @@
 import Navbar from "../components/Navbar"
-
+import Education from "../sections/Education"
 import Hero from "../sections/Hero"
 import FadeContent from "../components/Animations/FadeContent/FadeContent"
 import About from "../sections/About"
@@ -21,6 +21,9 @@ const Home = () => {
 
             {/* Section About */}
             <About />
+
+            {/* Section Education */}
+            <Education />
             
         </>
     )
