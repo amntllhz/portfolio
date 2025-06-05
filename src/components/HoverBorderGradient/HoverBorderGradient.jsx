@@ -35,7 +35,7 @@ export function HoverBorderGradient({
   };
 
   const highlight =
-    "radial-gradient(75% 181.15942028985506% at 50% 50%, #3275F8 0%, rgba(255, 255, 255, 0) 100%)";
+    "radial-gradient(75% 181.15942028985506% at 50% 50%, #6366f1 0%, rgba(255, 255, 255, 0) 100%)";
 
   useEffect(() => {
     if (!hovered) {
@@ -52,12 +52,12 @@ export function HoverBorderGradient({
       }}
       onMouseLeave={() => setHovered(false)}
       className={cn(
-        "relative flex rounded-[inherit] border content-center bg-black/20 transition duration-500 dark:bg-white/20 items-center flex-col flex-nowrap gap-10 h-min justify-center overflow-visible decoration-clone w-fit",
+        "relative grid rounded-[inherit] border content-center bg-white/20 transition duration-500 items-center gap-10 h-min justify-center overflow-visible decoration-clone w-fit",
         containerClassName
       )}
       {...props}>
       <div
-        className={cn("w-auto text-white z-10 px-0.5 py-0.5 rounded-[inherit]", className)}>
+        className={cn("w-auto text-white z-10 px-1 py-0.5 rounded-[inherit]", className)}>
         {children}
       </div>
       <motion.div
@@ -75,7 +75,7 @@ export function HoverBorderGradient({
             : movingMap[direction],
         }}
         transition={{ ease: "linear", duration: duration ?? 1 }} />
-      <div className="bg-accent1 absolute z-1 flex-none inset-[-0.3px] m-0.5 rounded-[inherit]" />
+      <div className="bg-primary absolute z-1 flex-none inset-[0.3px] m-0.5 rounded-[inherit]" />
     </Tag>
   );
 }

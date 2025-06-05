@@ -1,6 +1,6 @@
 import React from "react"
 import { HoverBorderGradient } from "../components/HoverBorderGradient/HoverBorderGradient";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 import { HiEye } from "react-icons/hi";
 
 const Projects = () => {
@@ -10,13 +10,13 @@ const Projects = () => {
       title: "2016",
       content: (
         <div>                    
-          <div className="grid grid-cols-1 gap-4">            
+          <div>            
             <img
               src="https://assets.aceternity.com/templates/startup-2.webp"
               alt="startup template"
               width={500}
               height={500}
-              className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60" />                        
+              className="h-20 xs:h-56 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60" />                        
           </div>
         </div>
       ),
@@ -25,13 +25,13 @@ const Projects = () => {
       title: "2019",
       content: (
         <div>                  
-          <div className="grid grid-cols-1 gap-4">            
+          <div>            
             <img
               src="https://assets.aceternity.com/templates/startup-2.webp"
               alt="startup template"
               width={500}
               height={500}
-              className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60" />                        
+              className="h-20 xs:h-56 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60" />                        
           </div>
         </div>
       ),
@@ -40,13 +40,13 @@ const Projects = () => {
       title: "2019",
       content: (
         <div>                  
-          <div className="grid grid-cols-1 gap-4">            
+          <div>            
             <img
               src="https://assets.aceternity.com/templates/startup-2.webp"
               alt="startup template"
               width={500}
               height={500}
-              className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60" />                        
+              className="h-20 xs:h-56 w-full rounded-lg object-cover relative shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60" />                        
           </div>
         </div>
       ),
@@ -54,34 +54,36 @@ const Projects = () => {
 ];
 
     return (
-        <>
-            <div className="m-40 ">
-                <h1 className="font-display text-center font-semibold text-accent4 xs:text-2xl sm:text-4xl">Some of My Projects</h1>
+        <>            
 
-                <div className="grid grid-cols-3 mt-10 justify-center text-center gap-4">                
-                
-                {data.map((item, index) => (
-                    
-                    <HoverBorderGradient
-                        containerClassName="rounded-xl bg-red-500"
-                        as="button"
-                        className="relative flex flex-col items-center space-x-2">
-                        <div className=" flex mt-2 justify-between w-full px-6">
-                            <p className=" font-display text-sm font-semibold text-accent4">Project.io</p>
-                            <Link className="flex items-center gap-1">
-                                <HiEye />
-                                <p className="font-display text-sm font-semibold text-accent4">View</p>
-                            </Link>
-                        </div>                        
-                        
-                        <div key={index} className="flex flex-col items-center bg-accent1/10 rounded-xl p-3">                        
-                            {item.content}
-                        </div>                                    
-                    </HoverBorderGradient>
-                    
-                ))}
+            <div className="flex flex-col items-center mb-10">
+                  <h1 className="flex font-display mb-4 text-center font-semibold text-accent4 xs:text-2xl sm:text-4xl">Some of My Projects</h1>
+                  <p className="text-accent4 font-display text-center sm:text-sm xs:text-xs xs:max-w-xs">Some of the projects I have worked on is a Web development, UI Design, and Design Graphic</p>
+            </div>
 
+            <div className="grid grid-cols-1 sm:grid-cols-3 justify-center sm:max-w-5xl mx-auto text-center gap-4 w-full xs:max-w-9/10">
+
+              {data.map((item, index) => (
+                <div key={index}>
+                  <HoverBorderGradient
+                    containerClassName="rounded-2xl w-full"
+                    as="div"
+                    className="relative justify-center items-center space-x-2 w-full"
+                  >
+                    <div className="flex mt-2 justify-between w-full px-6">
+                      <p className="font-display text-sm font-semibold text-accent4">Project.io</p>
+                      <Link className="flex items-center gap-1 group">
+                        <HiEye className="text-accent4 group-hover:text-accent3 transition duration-300" />
+                        <p className="font-display text-sm font-semibold text-accent4 group-hover:text-accent3 transition duration-300">View</p>
+                      </Link>
+                    </div>
+                    
+                    <div className="relativerounded-xl p-3">
+                      {item.content}
+                    </div>
+                  </HoverBorderGradient>
                 </div>
+              ))}
             </div>
         </>
     )

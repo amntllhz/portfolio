@@ -1,4 +1,5 @@
 "use client";;
+
 import { useScroll, useTransform, motion } from "motion/react";
 import React, { useEffect, useRef, useState } from "react";
 
@@ -26,7 +27,7 @@ export const Timeline = ({
 
   return (
     <div
-      className="w-full font-sans xs:relative xs:px-2 sm:px-8"
+      className="w-full relative font-sans xs:px-2 sm:px-8"
       ref={containerRef}>
       <div className="max-w-7xl mx-auto py-20 px-4 xs:px-8 sm:px-10 xs:py-14">
         <h2 className="font-display font-semibold mb-4 text-accent4 xs:text-2xl sm:text-4xl xs:text-center sm:text-left">
@@ -73,7 +74,7 @@ export const Timeline = ({
               height: heightTransform,
               opacity: opacityTransform,
             }}
-            className="absolute inset-x-0 top-0  w-[2px] bg-gradient-to-t from-purple-500 via-blue-500 to-transparent from-[0%] via-[10%] rounded-full" />
+            className="absolute inset-x-0 top-0  w-[2px] bg-gradient-to-t from-accent2 via-accent3 to-transparent from-[0%] via-[10%] rounded-full" />
         </div>
       </div>
     </div>
