@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "postinstall": "flowbite-react patch"
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
@@ -17,8 +18,10 @@
     "@tabler/icons-react": "^3.34.0",
     "@tailwindcss/vite": "^4.1.7",
     "clsx": "^2.1.1",
+    "flowbite-react": "^0.11.7",
     "framer-motion": "^12.16.0",
     "gsap": "^3.13.0",
+    "motion": "^12.16.0",
     "ogl": "^1.0.11",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
