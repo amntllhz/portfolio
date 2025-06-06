@@ -2,8 +2,7 @@ import { HoverBorderGradient } from "../HoverBorderGradient/HoverBorderGradient"
 import { HiEye } from "react-icons/hi"
 import projectList from "../../data/projectList"
 
-
-const ProjectCard = () => {    
+const ProjectCard = () => {       
 
     return (
         <>
@@ -30,6 +29,7 @@ const ProjectCard = () => {
                   </HoverBorderGradient>
                 </div>
               ))}
+              
                 
         </div>
         </>
