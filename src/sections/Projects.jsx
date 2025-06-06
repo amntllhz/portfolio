@@ -8,33 +8,8 @@ const Projects = () => {
           <div className="relative sm:top-40 xs:-top-40">
             <div className="relative flex flex-col items-center mb-10">
                   <h1 className="flex font-display mb-4 text-center font-semibold text-accent4 xs:text-2xl sm:text-4xl">Some of My Projects</h1>
-                  <p className="text-accent4 font-display text-center sm:text-sm xs:text-xs xs:max-w-xs">Some of the projects I have worked on is a Web development, UI Design, and Design Graphic</p>
-            </div>
-
-            {/* <div className="grid grid-cols-1 sm:grid-cols-3 justify-center sm:max-w-5xl mx-auto text-center gap-4 w-full xs:max-w-9/10">
-
-              {projectList.map((item, index) => (
-                <div key={index}>
-                  <HoverBorderGradient
-                    containerClassName="rounded-2xl w-full"
-                    as="div"
-                    className="relative justify-center items-center space-x-2 w-full"
-                  >
-                    <div className="flex mt-2 justify-between w-full px-6">
-                      <p className="font-display text-sm font-semibold text-accent4">Project.io</p>
-                      <Link className="flex items-center gap-1 group">
-                        <HiEye className="text-accent4 group-hover:text-accent3 transition duration-300" />
-                        <p className="font-display text-sm font-semibold text-accent4 group-hover:text-accent3 transition duration-300">View</p>
-                      </Link>
-                    </div>
-                    
-                    <div className="relativerounded-xl p-3">
-                      {item.content}
-                    </div>
-                  </HoverBorderGradient>
-                </div>
-              ))}
-            </div> */}
+                  <p className="text-accent4 font-display text-center sm:max-w-md sm:text-sm xs:text-xs xs:max-w-xs">Some of the projects I have worked on is a Web development, UI Design, and Design Graphic</p>
+            </div>            
 
             <ProjectCard />
           </div>

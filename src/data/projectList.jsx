@@ -1,7 +1,9 @@
 
 const projectList = [
-    {       
+    { 
+      id : 1,
       title: "Project1",
+      category : ["Web Development", "UI Design"],
       desc : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex recusandae fuga quasi nesciunt obcaecati rerum quam, placeat quaerat in qui, eaque eius? ",
       feature : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex recusandae fuga quasi nesciunt obcaecati rerum quam, placeat quaerat in qui, eaque eius? A veritatis sed cupiditate beatae sint excepturi necessitatibus accusamus ad dignissimos non fugiat neque porro aliquid doloribus, tempore maxime commodi dolorem incidunt odio. Officia illo reprehenderit quia dicta!Jl. Raya Cepagan, Karangjati, Cepagan, Kec. Warungasem, Kabupaten Batang, Jawa Tengah 51252",
       techStack : ["HTML", "CSS", "JavaScript", "React", "TailwindCSS"],
@@ -18,8 +20,10 @@ const projectList = [
         </div>
       ),
     },
-    {
+    { 
+      id : 2,
       title: "Project2",
+      category : ["Web Development", "UI Design"],
       desc : "State Junior High School 2 Warungasem",
       feature : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex recusandae fuga quasi nesciunt obcaecati rerum quam, placeat quaerat in qui, eaque eius? A veritatis sed cupiditate beatae sint excepturi necessitatibus accusamus ad dignissimos non fugiat neque porro aliquid doloribus, tempore maxime commodi dolorem incidunt odio. Officia illo reprehenderit quia dicta!Jl. Raya Cepagan, Karangjati, Cepagan, Kec. Warungasem, Kabupaten Batang, Jawa Tengah 51252",
       techStack : ["HTML", "CSS", "JavaScript", "React", "TailwindCSS"],
@@ -36,8 +40,10 @@ const projectList = [
         </div>
       ),
     },
-    {
+    { 
+      id : 3,
       title: "Project3",
+      category : ["Web Development", "UI Design"],
       desc : "State Junior High School 3 Warungasem",
       feature : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex recusandae fuga quasi nesciunt obcaecati rerum quam, placeat quaerat in qui, eaque eius? A veritatis sed cupiditate beatae sint excepturi necessitatibus accusamus ad dignissimos non fugiat neque porro aliquid doloribus, tempore maxime commodi dolorem incidunt odio. Officia illo reprehenderit quia dicta!Jl. Raya Cepagan, Karangjati, Cepagan, Kec. Warungasem, Kabupaten Batang, Jawa Tengah 51252",
       techStack : ["HTML", "CSS", "JavaScript", "React", "TailwindCSS"],
