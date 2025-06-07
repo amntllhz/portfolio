@@ -5,7 +5,7 @@ import ShinyText from "../components/TextAnimations/ShinyText/ShinyText";
 import Button from "../components/Buttons/Button";
 import Aurora from "../components/Backgrounds/Aurora/Aurora";
 import { HiOutlineDocumentReport } from "react-icons/hi";
-import resume from '../../public/resume.pdf'
+import resume from "../assets/resume.pdf"
 import { Link as ScrollLink } from 'react-scroll'
 
 
