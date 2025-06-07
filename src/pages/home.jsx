@@ -19,18 +19,19 @@ const Home = () => {
                 {/* Anything placed inside this container will be fade into view */}
                 <Hero />                                    
             </FadeContent>                                   
+            <div className="relative xs:-mt-60 sm:mt-0 gap-10">
+                {/* Section About */}
+                <About />
 
-            {/* Section About */}
-            <About />
+                {/* Section Education */}
+                <Education />
 
-            {/* Section Education */}
-            <Education />
-
-            {/* Section Projects  */}
-            <Projects />
-            
-            {/* Section Contact */}
-            <Contact />
+                {/* Section Projects  */}
+                <Projects />
+                
+                {/* Section Contact */}
+                <Contact />
+            </div>
         </>
     )
 }

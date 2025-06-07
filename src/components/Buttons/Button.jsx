@@ -7,7 +7,7 @@ const Button = ({text, bgButton = "bg-deep", icon = "", textColor = "text-accent
                 <span className="absolute inset-0 rounded-full bg-[image:radial-gradient(75%_100%_at_50%_0%,rgba(99,102,241,0.6)_0%,rgba(99,102,241,0)_75%)] opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
             </span>
             <div className={`relative flex space-x-2 items-center z-10 rounded-full py-0.5 px-4 ring-1 ring-white/10 ${bgButton}`}>
-                <span className="flex items-center gap-x-0.5">
+                <span className="flex items-center sm:gap-x-1 xs:gap-x-2">
                     <p className={`font-medium font-display ${textColor} xs:px-0 sm:px-1 xs:py-0.5 sm:py-1 xs:text-xs sm:text-xs md:text-sm`}>{text}</p>
                     <p className="text-accent4 text-lg xs:text-sm">{icon}</p>
                 </span>        
