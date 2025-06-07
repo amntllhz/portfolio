@@ -4,7 +4,7 @@ import Hero from "../sections/Hero"
 import FadeContent from "../components/Animations/FadeContent/FadeContent"
 import About from "../sections/About"
 import Projects from "../sections/Projects"
-import Aurora from "../components/Backgrounds/Aurora/Aurora"
+import Contact from "../sections/Contact"
 
 
 
@@ -29,6 +29,8 @@ const Home = () => {
             {/* Section Projects  */}
             <Projects />
             
+            {/* Section Contact */}
+            <Contact />
         </>
     )
 }

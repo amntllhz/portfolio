@@ -8,7 +8,7 @@ const Button = ({text, bgButton = "bg-deep", icon = "", textColor = "text-accent
             </span>
             <div className={`relative flex space-x-2 items-center z-10 rounded-full py-0.5 px-4 ring-1 ring-white/10 ${bgButton}`}>
                 <span className="flex items-center gap-x-0.5">
-                    <p className={`font-semibold font-display ${textColor} xs:px-0 sm:px-1 xs:py-0.5 sm:py-1 xs:text-xs md:text-sm`}>{text}</p>
+                    <p className={`font-medium font-display ${textColor} xs:px-0 sm:px-1 xs:py-0.5 sm:py-1 xs:text-xs sm:text-xs md:text-sm`}>{text}</p>
                     <p className="text-accent4 text-lg xs:text-sm">{icon}</p>
                 </span>        
             </div>
