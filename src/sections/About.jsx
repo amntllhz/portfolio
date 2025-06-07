@@ -28,16 +28,17 @@ const About = () => {
     return (
         <>
             <div id="about" className="sm:pt-20 xs:pt-8 relative flex flex-wrap w-full mx-6 justify-center gap-x-8 xs:mx-auto xs:gap-y-4 sm:mt-20 xs:mt-10">
+                
                 <div>
                     <PixelCard variant="default" imageUrl={profile}>
                         
                     </PixelCard>
                 </div>
 
-                <div className="xs:mx-6 sm:mx-0">
+                <div className="xs:max-w-9/10 sm:mx-0">
 
                     <Animation delay={0}>
-                        <h2 className=" text-accent4 font-display font-bold mb-4 xs:text-center sm:text-left xs:text-3xl sm:text-4xl">Halo! , Is Cristiano Rojali Here </h2>                    
+                        <h2 className=" text-accent4 font-display font-bold mb-4 xs:max-w-9/10 xs:mx-auto sm:mx-0 xs:text-center sm:text-left xs:text-3xl sm:text-4xl">Halo! , Is Cristiano Rojali Here </h2>                    
                     </Animation>                 
                     <Animation delay={0.1}>
                         <div className="flex flex-wrap gap-2 xs:justify-center sm:justify-start">
