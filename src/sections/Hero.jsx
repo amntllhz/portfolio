@@ -5,6 +5,8 @@ import ShinyText from "../components/TextAnimations/ShinyText/ShinyText";
 import Button from "../components/Buttons/Button";
 import Aurora from "../components/Backgrounds/Aurora/Aurora";
 import { HiOutlineDocumentReport } from "react-icons/hi";
+import resume from '../../public/resume.pdf'
+import { Link as ScrollLink } from 'react-scroll'
 
 
 const Hero = () => {
@@ -49,8 +51,12 @@ const Hero = () => {
                 <ShinyText text="Transforming Visionary ideas into refined realities Cutting-edge Technology and Innovation" disabled={false} speed={5} className='text-center font-display xs:max-w-xs sm:max-w-md md:max-w-md xs:text-xs sm:text-sm md:text-base' />                
             </div>
             <div className="flex flex-row items-center justify-center bg-accent1/30 rounded-full px-2.5 py-2 mt-4 sm:gap-x-3 xs:gap-x-1.5">
-                <Button icon={<HiOutlineDocumentReport />} bgButton="bg-gradient-to-r from-accent1/30 via-accent3/40 to-accent1/30 " text="Resume" />
-                <Button textColor="text-accent1" bgButton="bg-gradient-to-r from-accent4/30 via-accent4/80 to-accent4/30 " text="Get In Touch" />
+                <a href={resume} download={true}>
+                    <Button icon={<HiOutlineDocumentReport />} bgButton="bg-gradient-to-r from-accent1/30 via-accent3/40 to-accent1/30 " text="Resume" />
+                </a>
+                <ScrollLink to="about" smooth={true} duration={300}>
+                    <Button textColor="text-primary" bgButton="bg-gradient-to-r from-accent4/30 via-accent4/80 to-accent4/30 " text="Get In Touch" />
+                </ScrollLink>
             </div>            
         </div>
         </>
