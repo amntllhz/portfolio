@@ -42,8 +42,8 @@ const About = () => {
                     </Animation>                 
                     <Animation delay={0.1}>
                         <div className="flex flex-wrap gap-2 xs:justify-center sm:justify-start">
-                            <p className="text-accent3 font-display xs:text-xs sm:text-sm font-semibold bg-accent1/20 px-3 py-1 w-fit rounded-full">Front-End Web Developer</p>                        
-                            <p className="text-accent3 font-display xs:text-xs sm:text-sm font-semibold bg-accent1/20 px-3 py-1 w-fit rounded-full">UI/UX Designer</p>                            
+                            <p className="text-accent3 font-display xs:text-xs sm:text-sm font-semibold bg-accent1/30 px-3 py-1 w-fit rounded-full">Front-End Web Developer</p>                        
+                            <p className="text-accent3 font-display xs:text-xs sm:text-sm font-semibold bg-accent1/30 px-3 py-1 w-fit rounded-full">UI/UX Designer</p>                            
                         </div>                    
                     </Animation>
                     <Animation delay={0.2}>
@@ -54,7 +54,7 @@ const About = () => {
                     </Animation>
                 </div> 
 
-                <Marquee speed={50} gradient={true} gradientColor={'#010914'} gradientWidth={100} className="mt-10 bg-gradient-to-r from-accent1/0 via-accent1/10 to-accent1/0">
+                <Marquee speed={50} gradient={true} gradientColor={'#010914'} gradientWidth={100} className="mt-10 bg-gradient-to-r from-accent1/0 via-accent1/30 to-accent1/0">
                     {techList.map((tech, index) =>
                         <TechIcon key={index} icon={tech.icon} name={tech.nameTech} />
                     )}
