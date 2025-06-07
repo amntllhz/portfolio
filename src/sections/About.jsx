@@ -2,7 +2,7 @@ import PixelCard from "../components/Components/PixelCard/PixelCard";
 import profile from "../assets/profile.JPG";
 import AnimatedContent from "../components/Animations/AnimatedContent/AnimatedContent";
 import Marquee from "react-fast-marquee";
-import TechIcon from "../components/TechIcon/techIcon";
+import TechIcon from "../components/TechIcon/TechIcon";
 import techList from "../data/techList";
 
 const About = () => {
