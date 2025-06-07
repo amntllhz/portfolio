@@ -110,7 +110,7 @@ const Education = () => {
 
     return (
         <>        
-            <div className="relative w-full overflow-clip max-w-5xl mx-auto sm:mt-20 xs:mt-10">
+            <div id="education" className="pt-20 xs:pt-8 relative w-full overflow-clip max-w-5xl mx-auto sm:mt-20 xs:mt-10">
                 <Timeline data={data} />
             </div>
         </>

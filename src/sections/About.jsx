@@ -27,7 +27,7 @@ const About = () => {
 
     return (
         <>
-            <div className="relative flex flex-wrap w-full mx-6 justify-center gap-x-8 xs:mx-auto xs:gap-y-4 sm:mt-20 xs:mt-10">
+            <div id="about" className="sm:pt-20 xs:pt-8 relative flex flex-wrap w-full mx-6 justify-center gap-x-8 xs:mx-auto xs:gap-y-4 sm:mt-20 xs:mt-10">
                 <div>
                     <PixelCard variant="default" imageUrl={profile}>
                         

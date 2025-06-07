@@ -5,7 +5,7 @@ import { SiGithub, SiGmail, SiLinkedin } from "react-icons/si";
 const Contact = () => {
     return (
         <>
-            <div className="relative flex flex-col items-center justify-center gap-4 sm:max-w-5xl xs:max-w-9/10 mx-auto sm:mt-20 xs:mt-10">
+            <div id="contact" className="sm:pt-20 xs:pt-8 relative flex flex-col items-center justify-center gap-4 sm:max-w-5xl xs:max-w-9/10 mx-auto sm:mt-20 xs:mt-10">
                 <div className="flex flex-col gap-4 bg-accent1/20 p-12 w-full items-center rounded-2xl sm:mb-10 xs:mb-4">
                     <div className="flex items-center gap-2 bg-accent1/30 px-4 py-1.5 rounded-full">
                         <span className="relative flex size-2">
