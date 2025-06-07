@@ -18,21 +18,7 @@ const Education = () => {
           </p>
           <p className="mb-8 font-display sm:text-sm font-normal text-accent4 xs:text-xs sm:max-w-lg text-justify ">
             During my junior high school years, I discovered a deep interest in creative and analytical subjects. I particularly enjoyed art, mathematics, and music. These interests led me to join the school band extracurricular, where I had the chance to express myself through music while nurturing my creative instincts both inside and outside the classroom.
-          </p>
-          <div className="grid grid-cols-2 gap-4">            
-            <img
-              src="https://assets.aceternity.com/templates/startup-2.webp"
-              alt="startup template"
-              width={500}
-              height={500}
-              className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60" />            
-            <img
-              src="https://assets.aceternity.com/templates/startup-4.webp"
-              alt="startup template"
-              width={500}
-              height={500}
-              className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60" />
-          </div>
+          </p>          
         </div>
       ),
     },
@@ -49,21 +35,7 @@ const Education = () => {
           </p>
           <p className="mb-8 font-display sm:text-sm font-normal text-accent4 xs:text-xs sm:max-w-lg text-justify ">
             In high school, my passion for mathematics and music remained strong, and I developed a growing appreciation for physics. Outside of academics, I actively participated in the futsal extracurricular club. Together with my teammates, I was fortunate to achieve several trophies, shaping both my teamwork and competitive spirit.
-          </p>
-          <div className="grid grid-cols-2 gap-4">            
-            <img
-              src="https://assets.aceternity.com/templates/startup-2.webp"
-              alt="startup template"
-              width={500}
-              height={500}
-              className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60" />            
-            <img
-              src="https://assets.aceternity.com/templates/startup-4.webp"
-              alt="startup template"
-              width={500}
-              height={500}
-              className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60" />
-          </div>
+          </p>          
         </div>
       ),
     },
@@ -78,7 +50,7 @@ const Education = () => {
           <p className="mb-2 font-display font-normal text-accent4/20 xs:text-xs sm:text-sm sm:max-w-md">
             Jl. Raya Pekajangan No.29, Pekajangan Tengah, Pekajangan, Kec. Kedungwuni, Kabupaten Pekalongan, Jawa Tengah 51173
           </p>
-          <p className="mb-4 font-display sm:text-sm font-normal text-accent4 xs:text-xs sm:max-w-lg text-justify">
+          <p className="xs:mb-8 sm:mb-6 font-display sm:text-sm font-normal text-accent4 xs:text-xs sm:max-w-lg text-justify">
             Throughout university, I&apos;ve focused on how ideas can be visually communicated and brought to life. My main interests lie in front-end development, UI/UX design, and graphic design. Although I haven't been involved in campus organizations, I&apos;ve chosen to invest time in personal learning at home. I believe education goes beyond the classroom, and I strive to make the most of my time by continuously learning and exploring new things in my field.
           </p>
           <p
@@ -86,22 +58,8 @@ const Education = () => {
             Internship Experience
           </p>
           <p className="mb-8 font-display sm:text-sm font-normal text-accent4 xs:text-xs sm:max-w-lg text-justify">
-             I had the opportunity to apply these skills during my internship at the <span className="font-semibold text-accent3"> Department of Communication and Information (Dinas Komunikasi dan Informatika) of Pekalongan Regency</span> , where I worked as a Front-end Web Developer and Graphic Designer. During the internship, I developed a web application that facilitated service submissions for regional government agencies (OPD) in Pekalongan Regency. I also created various digital visual content for the department&apos;s social media platforms
-          </p>
-          <div className="grid grid-cols-2 gap-4">            
-            <img
-              src="https://assets.aceternity.com/templates/startup-2.webp"
-              alt="startup template"
-              width={500}
-              height={500}
-              className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60" />            
-            <img
-              src="https://assets.aceternity.com/templates/startup-4.webp"
-              alt="startup template"
-              width={500}
-              height={500}
-              className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60" />
-          </div>
+             I had the opportunity to apply these skills during my internship at the <span className="font-bold bg-accent1/90 text-accent4"> Department of Communication and Information (Dinas Komunikasi dan Informatika) of Pekalongan Regency</span> , where I worked as a Front-end Web Developer and Graphic Designer. During the internship, I developed a web application that facilitated service submissions for regional government agencies (OPD) in Pekalongan Regency. I also created various digital visual content for the department&apos;s social media platforms
+          </p>          
         </div>
       ),
     },
