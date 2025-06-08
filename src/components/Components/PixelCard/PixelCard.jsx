@@ -277,6 +277,7 @@ export default function PixelCard({
 
   const onClickMobile = () => {
     if (!isTouchDevice) return;
+    e.stopPropagation(); // mencegah propagasi ke dokumen
     if (!isActiveMobile) {
       setIsActiveMobile(true);
       handleAnimation("appear");
@@ -306,7 +307,13 @@ export default function PixelCard({
       )}
 
       <canvas
-        className="w-full h-full block absolute z-10 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+        className={`w-full h-full block absolute z-10 transition-opacity duration-300 ${
+          isTouchDevice
+          ? isActiveMobile
+          ? "opacity-100"
+          : "opacity-0"
+          : "opacity-0 group-hover:opacity-100"
+      }`}
         ref={canvasRef}
       />
       {children}
