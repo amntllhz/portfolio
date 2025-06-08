@@ -2,7 +2,7 @@
 	Installed from https://reactbits.dev/tailwind/
 */
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 
 class Pixel {
   constructor(canvas, context, x, y, color, speed, delay) {
@@ -256,6 +256,32 @@ export default function PixelCard({
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [finalGap, finalSpeed, finalColors, finalNoFocus]);
+  
+  // handlemobileversion
+  const [isActiveMobile, setIsActiveMobile] = useState(false);
+  const isTouchDevice = typeof window !== "undefined" && window.matchMedia("(pointer: coarse)").matches;
+
+  useEffect(() => {
+  if (!isTouchDevice || !isActiveMobile) return;
+
+    const handleOutsideClick = (e) => {
+      if (containerRef.current && !containerRef.current.contains(e.target)) {
+        setIsActiveMobile(false);
+        handleAnimation("disappear");
+      }
+    };
+
+    document.addEventListener("click", handleOutsideClick);
+    return () => document.removeEventListener("click", handleOutsideClick);
+  }, [isTouchDevice, isActiveMobile]);
+
+  const onClickMobile = () => {
+    if (!isTouchDevice) return;
+    if (!isActiveMobile) {
+      setIsActiveMobile(true);
+      handleAnimation("appear");
+    }
+  };
 
   return (
     <div
@@ -264,6 +290,7 @@ export default function PixelCard({
 
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
+      onClick={onClickMobile}
 
       onFocus={finalNoFocus ? undefined : onFocus}
       onBlur={finalNoFocus ? undefined : onBlur}
