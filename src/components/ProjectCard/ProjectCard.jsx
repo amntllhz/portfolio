@@ -28,7 +28,7 @@ const ProjectCard = () => {
                       </div>
                       
                       <div className="relative rounded-xl p-3">
-                        {item.content}
+                        {item.cover}
                       </div>
                                             
                       {/* <Dialog open={isOpenIndex === id} onClose={() => setIsOpenIndex(null)} className="relative z-50">
@@ -134,9 +134,7 @@ const ProjectCard = () => {
                                       </div>                                                          
                                     </div>
                                     <div className="flex flex-col sm:overflow-y-auto xs:overflow-visible p-4 rounded-md bg-white gap-2 xs:gap-y-4 sm:basis-3/5 xs:basis-full">
-                                      <div>{item.content}</div>
-                                      <div>{item.content}</div>
-                                      <div>{item.content}</div>
+                                      <div>{item.content}</div>                                      
                                     </div>
                                   </Description>
                                 </DialogPanel>
