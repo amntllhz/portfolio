@@ -292,6 +292,7 @@ export default function PixelCard({
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
       onClick={onClickMobile}
+      onTouchStart={onClickMobile}
 
       onFocus={finalNoFocus ? undefined : onFocus}
       onBlur={finalNoFocus ? undefined : onBlur}
