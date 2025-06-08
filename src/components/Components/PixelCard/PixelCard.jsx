@@ -275,7 +275,7 @@ export default function PixelCard({
     return () => document.removeEventListener("click", handleOutsideClick);
   }, [isTouchDevice, isActiveMobile]);
 
-  const onClickMobile = () => {
+  const onClickMobile = (e) => {
     if (!isTouchDevice) return;
     e.stopPropagation(); // mencegah propagasi ke dokumen
     if (!isActiveMobile) {
