@@ -1,3 +1,5 @@
+
+// secondmarket images
 import secondmarket1 from "../assets/secondmarket/Artboard 1.webp"
 import secondmarket2 from "../assets/secondmarket/Artboard 2.webp"
 import secondmarket3 from "../assets/secondmarket/Artboard 3.webp"
@@ -7,6 +9,11 @@ import secondmarket6 from "../assets/secondmarket/Artboard 6.webp"
 import secondmarket7 from "../assets/secondmarket/Artboard 7.webp"
 import secondmarket8 from "../assets/secondmarket/Artboard 8.webp"
 import secondmarket9 from "../assets/secondmarket/Artboard 9.webp"
+
+// egoverse images
+import egoverse1 from "../assets/egoverse/egoverse1.webp"
+import egoverse2 from "../assets/egoverse/egoverse2.webp"
+import egoverse3 from "../assets/egoverse/egoverse3.webp"
 
 const projectList = [
     
@@ -28,11 +35,23 @@ const projectList = [
         <div>                    
           <div>            
             <img
-              src="https://assets.aceternity.com/templates/startup-2.webp"
+              src={egoverse1}
               alt="startup template"
               width={500}
               height={500}
-              className="h-20 xs:h-56 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60" />                        
+              className="block h-full w-full object-cover " />
+            <img
+              src={egoverse2}
+              alt="startup template"
+              width={500}
+              height={500}
+              className="block h-full w-full object-cover " /> 
+            <img
+              src={egoverse3}
+              alt="startup template"
+              width={500}
+              height={500}
+              className="block h-full w-full object-cover " />
           </div>
         </div>
       ),
