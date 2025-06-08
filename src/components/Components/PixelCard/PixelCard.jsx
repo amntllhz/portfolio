@@ -303,7 +303,14 @@ export default function PixelCard({
         <img
           src={imageUrl}
           alt="profile"
-          className="absolute w-full h-full object-cover z-0 transition-all duration-150 ease-in-out transform group-hover:translate-y-10 group-hover:opacity-0"
+          className={`absolute w-full h-full object-cover z-0 transition-all duration-150 ease-in-out transform
+                    ${
+                      isTouchDevice
+                        ? isActiveMobile
+                          ? "translate-y-10 opacity-0"
+                          : "translate-y-0 opacity-100"
+                        : "group-hover:translate-y-10 group-hover:opacity-0"
+                    }`}
         />
       )}
 
