@@ -131,7 +131,15 @@ const ProjectCard = () => {
                                             <p className="font-display text-accent3 font-semibold text-xs py-1 px-2 w-fit bg-accent3/10 rounded-lg">{tech}</p>
                                           </div>
                                         ))}
-                                      </div>                                                          
+                                      </div>
+                                      <p className="font-display text-primary xs:text-xs font-bold sm:text-sm text-justify">Role :</p>                                                        
+                                      <div className="font-display flex gap-2 flex-wrap text-sm text-justify">
+                                        {item.role.map((role, id) => (
+                                          <div key={id}>
+                                            <p className="font-display text-accent3 font-semibold text-xs py-1 px-2 w-fit bg-accent3/10 rounded-lg">{role}</p>
+                                          </div>
+                                        ))}
+                                      </div>
                                     </div>
                                     <div className="flex flex-col sm:overflow-y-auto xs:overflow-visible p-4 rounded-md bg-white gap-2 xs:gap-y-4 sm:basis-3/5 xs:basis-full">
                                       <div>{item.content}</div>                                      

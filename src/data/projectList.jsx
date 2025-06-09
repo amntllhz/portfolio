@@ -15,15 +15,34 @@ import egoverse1 from "../assets/egoverse/egoverse1.webp"
 import egoverse2 from "../assets/egoverse/egoverse2.webp"
 import egoverse3 from "../assets/egoverse/egoverse3.webp"
 
+// anaksehat images
+import anaksehat1 from "../assets/anaksehat/anaksehat1.webp"
+import anaksehat2 from "../assets/anaksehat/anaksehat2.webp"
+import anaksehat3 from "../assets/anaksehat/anaksehat3.webp"
+import anaksehat4 from "../assets/anaksehat/anaksehat4.webp"
+import anaksehat5 from "../assets/anaksehat/anaksehat5.webp"
+import anaksehat6 from "../assets/anaksehat/anaksehat6.webp"
+
 const projectList = [
     
     { 
       id : 1,
       title: "Egoverse",
       category : ["Web Development", "UI Design"],
-      desc : "State Junior High School 2 Warungasem",
-      feature : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex recusandae fuga quasi nesciunt obcaecati rerum quam, placeat quaerat in qui, eaque eius? A veritatis sed cupiditate beatae sint excepturi necessitatibus accusamus ad dignissimos non fugiat neque porro aliquid doloribus, tempore maxime commodi dolorem incidunt odio. Officia illo reprehenderit quia dicta!Jl. Raya Cepagan, Karangjati, Cepagan, Kec. Warungasem, Kabupaten Batang, Jawa Tengah 51252",
-      techStack : ["HTML", "CSS", "JavaScript", "React", "TailwindCSS"],
+      role : ["Front-End Developer", "UI/UX Designer"],
+      desc : "eGoverse or E-Government Services is an innovative OPD (Regional Apparatus Organization) Digitalization Service Portal designed to facilitate the submission of Clearance, Server, Device services, and other support to enhance the efficiency and performance of Regional Apparatus Organizations (OPD) in Pekalongan Regency. This system is built using Laravel and Tailwind CSS.",
+      feature : (
+        <div>          
+          <ul className="list-disc pl-4 font-display text-primary xs:text-xs sm:text-sm text-justify">
+            <li>Intuitive and user-friendly interface</li>
+            <li>Secure and reliable platform</li>
+            <li>Efficient and streamlined workflow</li>
+            <li>Real-time updates and notifications</li>
+            <li>Customizable and extendable</li>
+          </ul>
+        </div>
+      ),
+      techStack : ["Blade", "PHP", "Laravel", "Javascript", "TailwindCSS", "MySQL"],
       cover : ( <img
               src="https://assets.aceternity.com/templates/startup-2.webp"
               alt="startup template"
@@ -58,11 +77,22 @@ const projectList = [
     },
     { 
       id : 2,
-      title: "Secondmarket",
+      title: "Anaksehat",
       category : ["Web Development", "UI Design"],
-      desc : "State Junior High School 3 Warungasem",
-      feature : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex recusandae fuga quasi nesciunt obcaecati rerum quam, placeat quaerat in qui, eaque eius? A veritatis sed cupiditate beatae sint excepturi necessitatibus accusamus ad dignissimos non fugiat neque porro aliquid doloribus, tempore maxime commodi dolorem incidunt odio. Officia illo reprehenderit quia dicta!Jl. Raya Cepagan, Karangjati, Cepagan, Kec. Warungasem, Kabupaten Batang, Jawa Tengah 51252",
-      techStack : ["HTML", "CSS", "JavaScript", "React", "TailwindCSS"],
+      role : ["Fullstack Web Developer", "UI/UX Designer"],
+      desc : "Anaksehat is a website that contains nutritional information equipped with a toddler nutritional status calculation system using the z-score method according to standards. This website was created as an effort to reduce stunting in Indonesia through the dissemination of nutritional information and flexibility in checking the nutritional status of toddlers.",
+      feature : (
+        <div>          
+          <ul className="list-disc pl-4 font-display text-primary xs:text-xs sm:text-sm text-justify">
+            <li>User-friendly Interface</li>
+            <li>Nutrition Status Calculator</li>
+            <li>Nutrition Information Page</li>            
+            <li>Admin Dashboard</li>
+            <li>Article Management</li>
+          </ul>
+        </div>
+      ),
+      techStack : ["Blade","PHP", "Laravel", "MySQL", "Filament" ,"TailwindCSS"],
       cover : ( <img
               src="https://assets.aceternity.com/templates/startup-2.webp"
               alt="startup template"
@@ -74,17 +104,41 @@ const projectList = [
         <div>                    
           <div>            
             <img
-              src="https://assets.aceternity.com/templates/startup-2.webp"
+              src={anaksehat1}
               alt="startup template"
               width={500}
               height={500}
-              className="h-20 xs:h-56 w-full object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60" />                        
-              <img
-              src="https://assets.aceternity.com/templates/startup-2.webp"
+              className="block h-full w-full object-cover " />
+            <img
+              src={anaksehat2}
               alt="startup template"
               width={500}
               height={500}
-              className="h-20 xs:h-56 w-full object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60" />                        
+              className="block h-full w-full object-cover " />
+            <img
+              src={anaksehat3}
+              alt="startup template"
+              width={500}
+              height={500}
+              className="block h-full w-full object-cover " />
+            <img
+              src={anaksehat4}
+              alt="startup template"
+              width={500}
+              height={500}
+              className="block h-full w-full object-cover " />
+            <img
+              src={anaksehat5}
+              alt="startup template"
+              width={500}
+              height={500}
+              className="block h-full w-full object-cover " />
+            <img
+              src={anaksehat6}
+              alt="startup template"
+              width={500}
+              height={500}
+              className="block h-full w-full object-cover " /> 
           </div>
         </div>
       ),
@@ -92,10 +146,21 @@ const projectList = [
     { 
       id : 3,
       title: "Secondmarket",
-      category : ["Web Development", "UI Design"],
-      desc : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex recusandae fuga quasi nesciunt obcaecati rerum quam, placeat quaerat in qui, eaque eius? ",
-      feature : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex recusandae fuga quasi nesciunt obcaecati rerum quam, placeat quaerat in qui, eaque eius? A veritatis sed cupiditate beatae sint excepturi necessitatibus accusamus ad dignissimos non fugiat neque porro aliquid doloribus, tempore maxime commodi dolorem incidunt odio. Officia illo reprehenderit quia dicta!Jl. Raya Cepagan, Karangjati, Cepagan, Kec. Warungasem, Kabupaten Batang, Jawa Tengah 51252",
-      techStack : ["HTML", "CSS", "JavaScript", "React", "TailwindCSS"],
+      category : ["UI Design"],
+      role : ["UI/UX Designer"],
+      desc : "Secondmarket is an interface design for an application for buying and selling used clothes in a condition that is still very suitable for sale. This is because sellers of such items often sell them on inappropriate platforms, which can lead to misunderstandings for some customers who are not careful and think that the item is new.",
+      feature : (
+        <div>          
+          <ul className="list-disc pl-4 font-display text-primary xs:text-xs sm:text-sm text-justify">
+            <li>User-friendly Interface</li>
+            <li>Visually Appealing Home & Product Browsing</li>
+            <li>Clear and Informative Product Detail Pages</li>            
+            <li>Seamless Selling Experience</li>
+            <li>Good Color Contrast</li>
+          </ul>
+        </div>
+      ),
+      techStack : ["Figma", "Adobe Illustrator","Adobe Photoshop"],
       cover : ( <img
               src={secondmarket1}
               alt="startup template"
