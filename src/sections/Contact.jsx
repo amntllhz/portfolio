@@ -29,7 +29,7 @@ const Contact = () => {
                     </div> 
                 </div>
                 <div className="flex items-center justify-center gap-4 sm:max-w-5xl xs:max-w-9/10 mx-auto mb-6">
-                    <p className="font-display text-center font-medium text-accent4/30 text-xs">&copy; 2023 Muhammad Aldi. All rights reserved</p>
+                    <p className="font-display text-center font-medium text-accent4/30 text-xs">&copy; 2024 Muhammad Aldi. All rights reserved</p>
                 </div>               
             </div>
         </>

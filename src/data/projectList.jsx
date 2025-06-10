@@ -35,6 +35,7 @@ const projectList = [
       title: "Egoverse",
       category : ["Web Development", "UI Design"],
       role : ["Front-End Developer", "UI/UX Designer"],
+      link : "https://egoverse.vercel.app",
       desc : "eGoverse or E-Government Services is an innovative OPD (Regional Apparatus Organization) Digitalization Service Portal designed to facilitate the submission of Clearance, Server, Device services, and other support to enhance the efficiency and performance of Regional Apparatus Organizations (OPD) in Pekalongan Regency. This system is built using Laravel and Tailwind CSS.",
       feature : (
         <div>          
@@ -85,6 +86,7 @@ const projectList = [
       title: "Anaksehat",
       category : ["Web Development", "UI Design"],
       role : ["Fullstack Web Developer", "UI/UX Designer"],
+      link : "https://github.com/amntllhz/anaksehat",
       desc : "Anaksehat is a website that contains nutritional information equipped with a toddler nutritional status calculation system using the z-score method according to standards. This website was created as an effort to reduce stunting in Indonesia through the dissemination of nutritional information and flexibility in checking the nutritional status of toddlers.",
       feature : (
         <div>          
@@ -153,6 +155,7 @@ const projectList = [
       title: "Secondmarket",
       category : ["UI Design"],
       role : ["UI/UX Designer"],
+      link : "https://www.behance.net/gallery/190849733/SECONDMARKET-User-Interface",
       desc : "Secondmarket is an interface design for an application for buying and selling used clothes in a condition that is still very suitable for sale. This is because sellers of such items often sell them on inappropriate platforms, which can lead to misunderstandings for some customers who are not careful and think that the item is new.",
       feature : (
         <div>          

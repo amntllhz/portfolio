@@ -3,7 +3,7 @@ import { HiEye } from "react-icons/hi"
 import projectList from "../../data/projectList"
 import { Description, Dialog, DialogPanel, DialogTitle, Transition, TransitionChild } from '@headlessui/react'
 import { useState, Fragment } from "react"
-import { HiX } from "react-icons/hi";
+import { HiX, HiExternalLink } from "react-icons/hi";
 
 const ProjectCard = () => {     
     const [isOpenIndex, setIsOpenIndex] = useState(null)
@@ -29,51 +29,7 @@ const ProjectCard = () => {
                       
                       <div className="relative rounded-xl pl-3.5 pr-3.5 pb-3.5 pt-2 ">
                         {item.cover}
-                      </div>
-                                            
-                      {/* <Dialog open={isOpenIndex === id} onClose={() => setIsOpenIndex(null)} className="relative z-50">
-                        <div className="fixed inset-0 flex w-screen items-center justify-center p-4 bg-deep/20 backdrop-blur-xs">
-                          <DialogPanel className="sm:h-fit xs:h-screen xs:w-screen xs:rounded-none sm:max-w-3/4 space-y-4 bg-white p-4 sm:rounded-xl xs:overflow-clip ">
-                            <DialogTitle className="text-xl relative font-bold font-display text-primary">
-                              <div className="flex justify-between items-center w-full">
-                                <p className=" flex font-display font-extrabold text-primary">{item.title}</p>
-                                <button onClick={() => setIsOpenIndex(null)} className="flex cursor-pointer hover:bg-primary/10 px-1.5 py-1.5 rounded-md transition duration-100">
-                                  <HiX className="text-primary" />
-                                </button>                              
-                              </div>
-                            </DialogTitle>
-
-                            <Description as="div" className="flex sm:h-96 xs:h-[calc(100vh-5rem)] gap-4 w-full xs:flex-col sm:flex-row xs:overflow-y-auto">
-                              <div className="flex flex-col sm:overflow-y-auto xs:overflow-visible p-4 rounded-md bg-white gap-2 sm:basis-2/5 xs:basis-full">
-                                <p className="font-display text-primary xs:text-xs sm:text-sm text-justify">{item.desc}</p>
-                                <p className="font-display text-primary xs:text-xs font-bold sm:text-sm text-justify">Project Category :</p>
-                                <div className="font-display flex gap-2 flex-wrap text-sm text-justify">
-                                  {item.category.map((cat, id) => (
-                                    <div key={id}>
-                                      <p className="font-display text-accent3 font-semibold text-xs py-1 px-2 w-fit bg-accent3/10 rounded-lg">{cat}</p>
-                                    </div>
-                                  ))}
-                                </div>                                
-                                <p className="font-display text-primary xs:text-xs font-bold sm:text-sm text-justify">Feature :</p>
-                                <p className="font-display text-primary xs:text-xs sm:text-sm text-justify">{item.feature}</p>                                                          
-                                <p className="font-display text-primary xs:text-xs font-bold sm:text-sm text-justify">Tech Stack :</p>
-                                <div className="font-display flex gap-2 flex-wrap text-sm text-justify">
-                                  {item.techStack.map((tech, id) => (
-                                    <div key={id}>
-                                      <p className="font-display text-accent3 font-semibold text-xs py-1 px-2 w-fit bg-accent3/10 rounded-lg">{tech}</p>
-                                    </div>
-                                  ))}
-                                </div>                                                          
-                              </div>
-                              <div className="flex flex-col sm:overflow-y-auto xs:overflow-visible p-4 rounded-md bg-white gap-2 xs:gap-y-4 sm:basis-3/5 xs:basis-full">
-                                <div>{item.content}</div>
-                                <div>{item.content}</div>
-                                <div>{item.content}</div>
-                              </div>
-                            </Description>                                                        
-                          </DialogPanel>
-                        </div>
-                      </Dialog> */}                      
+                      </div>                                                                                      
 
                       <Transition appear show={isOpenIndex === id} as={Fragment}>
                         <Dialog as="div" className="relative z-50" onClose={() => setIsOpenIndex(null)}>
@@ -104,7 +60,12 @@ const ProjectCard = () => {
                                   {/* Dialog Title and Description here */}
                                   <DialogTitle className="text-xl relative font-bold font-display text-primary">
                                     <div className="flex justify-between items-center w-full">
-                                      <p className=" flex font-display font-extrabold text-primary">{item.title}</p>
+                                      <div className="flex items-center gap-2">
+                                        <p className=" flex font-display font-extrabold text-primary">{item.title}</p>
+                                        <a href={item.link} target="_blank" rel="noreferrer" className="flex cursor-pointer rounded-md transition duration-100">
+                                          <HiExternalLink className="text-primary/20 lg:text-2xl md:text-xl xs:text-lg hover:text-accent3 transition duration-200 ease-in-out" />
+                                        </a> 
+                                      </div>
                                       <button onClick={() => setIsOpenIndex(null)} className="flex cursor-pointer hover:bg-primary/10 px-1.5 py-1.5 rounded-md transition duration-100">
                                         <HiX className="text-primary" />
                                       </button>                              
