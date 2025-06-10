@@ -10,7 +10,7 @@ const ProjectCard = () => {
 
     return (
         <>
-          <div className="grid grid-cols-1 sm:grid-cols-3 justify-center sm:max-w-5xl mx-auto text-center gap-4 w-full xs:max-w-9/10">
+          <div className="grid xs:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center lg:max-w-5xl md:max-w-9/10 mx-auto text-center gap-4 w-full xs:max-w-9/10">
 
                 {projectList.map((item, id) => (
                   <div key={id}>
@@ -19,7 +19,7 @@ const ProjectCard = () => {
                       as="div"
                       className="relative justify-center items-center space-x-2 w-full"
                     >
-                      <div className="flex mt-2.5 justify-between w-full px-5">
+                      <div className="flex mt-2.5 justify-between w-full px-5 ">
                         <p className="font-display text-sm font-semibold text-accent4">{item.title}</p>
                         <button onClick={() => setIsOpenIndex(id)} className="flex items-center gap-1 group cursor-pointer">
                           <HiEye className="text-accent4 group-hover:text-accent3 transition duration-300" />

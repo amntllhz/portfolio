@@ -23,7 +23,7 @@ const Hero = () => {
                 speed={1.0}
             />
         </div>
-        <div id="hero" className="relative flex flex-col items-center md:justify-center md:pt-0 xs:justify-start xs:pt-36 h-screen">               
+        <div id="hero" className="relative flex flex-col items-center lg:justify-center lg:pt-0 md:justify-start md:pt-40 xs:justify-start xs:pt-36 h-screen">               
             <div
             ref={containerRef}
             style={{position: 'relative'}}
