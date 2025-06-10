@@ -23,6 +23,10 @@ import anaksehat4 from "../assets/anaksehat/anaksehat4.webp"
 import anaksehat5 from "../assets/anaksehat/anaksehat5.webp"
 import anaksehat6 from "../assets/anaksehat/anaksehat6.webp"
 
+// cover images
+import egoversecover from "../assets/egoverse/egoversecover.webp"
+import anaksehatcover from "../assets/anaksehat/anaksehatcover.webp"
+
 const projectList = [
     
     { 
@@ -44,7 +48,7 @@ const projectList = [
       ),
       techStack : ["Blade", "PHP", "Laravel", "Javascript", "TailwindCSS", "MySQL"],
       cover : ( <img
-              src="https://assets.aceternity.com/templates/startup-2.webp"
+              src={egoversecover}
               alt="startup template"
               width={500}
               height={500}
@@ -94,7 +98,7 @@ const projectList = [
       ),
       techStack : ["Blade","PHP", "Laravel", "MySQL", "Filament" ,"TailwindCSS"],
       cover : ( <img
-              src="https://assets.aceternity.com/templates/startup-2.webp"
+              src={anaksehatcover}
               alt="startup template"
               width={500}
               height={500}
