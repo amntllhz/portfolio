@@ -27,6 +27,7 @@ import anaksehat6 from "../assets/anaksehat/anaksehat6.webp"
 import egoversecover from "../assets/egoverse/egoversecover.webp"
 import anaksehatcover from "../assets/anaksehat/anaksehatcover.webp"
 
+
 const projectList = [
     
     { 
