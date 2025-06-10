@@ -1,6 +1,7 @@
 
 import Button from "../components/Buttons/Button";
-import { SiGithub, SiGmail, SiLinkedin } from "react-icons/si";
+import { SiGithub, SiGmail, SiLinkedin, SiBehance } from "react-icons/si";
+import { HiMail } from "react-icons/hi";
 
 const Contact = () => {
     return (
@@ -16,16 +17,27 @@ const Contact = () => {
                     </div>
                     <h1 className="font-display text-center font-bold text-accent4 xs:text-2xl sm:text-4xl">Start Big Collaborate</h1>
                     <p className="text-accent4 font-display text-center sm:max-w-md sm:text-sm xs:text-xs xs:max-w-xs">I am interested in freelance opportunities.if you have other requests or questions, don't hesitate to contact me.</p>                
-                    <div className="flex flex-row items-center justify-center bg-accent1/30 rounded-full px-2.5 py-2 mt-4 sm:gap-x-3 xs:gap-x-1.5">
+                    <div className="flex flex-row items-center justify-center bg-accent1/30 rounded-xl px-2.5 py-2 mt-4 sm:gap-x-3 xs:gap-x-1.5">
                         <a href="https://github.com/amntllhz" target="_blank" rel="noopener noreferrer">
-                            <Button icon={<SiGithub />} bgButton="bg-gradient-to-r from-accent1/30 via-accent3/40 to-accent1/30 " text="Github" />
+                            <button className="py-2 px-2.5 rounded-lg cursor-pointer bg-gradient-to-r from-accent1/60 via-accent3/30 to-accent1/60 hover:-translate-y-2.5 transform duration-300 ease-in-out">
+                                <SiGithub className="text-accent4 text-2xl"/>
+                            </button>
                         </a>
                         <a href="https://www.linkedin.com/in/aldiamn" target="_blank" rel="noopener noreferrer">
-                            <Button icon={<SiLinkedin />} bgButton="bg-gradient-to-r from-accent1/30 via-accent3/40 to-accent1/30 " text="LinkedIn" />
+                            <button className="py-2 px-2.5 rounded-lg cursor-pointer bg-gradient-to-r from-accent1/60 via-accent3/30 to-accent1/60 hover:-translate-y-2.5 transform duration-300 ease-in-out ">
+                                <SiLinkedin className="text-accent4 text-2xl"/>
+                            </button>
                         </a>
-                        <a href="mailto:amanatullah1904@gmail.com">                            
-                            <Button icon={<SiGmail />} bgButton="bg-gradient-to-r from-accent1/30 via-accent3/40 to-accent1/30 " text="Email" />
+                        <a href="https://www.behance.com/amntllhz" target="_blank" rel="noopener noreferrer">
+                            <button className="py-2 px-2.5 rounded-lg cursor-pointer bg-gradient-to-r from-accent1/60 via-accent3/30 to-accent1/60 hover:-translate-y-2.5 transform duration-300 ease-in-out ">
+                                <SiBehance className="text-accent4 text-2xl"/>
+                            </button>
                         </a>
+                        <a href="mailto:amanatullah1904@gmail.com" target="_blank" rel="noopener noreferrer">
+                            <button className="py-2 px-2.5 rounded-lg cursor-pointer bg-gradient-to-r from-accent1/60 via-accent3/30 to-accent1/60 hover:-translate-y-2.5 transform duration-300 ease-in-out ">
+                                <HiMail className="text-accent4 text-2xl"/>
+                            </button>
+                        </a>                        
                     </div> 
                 </div>
                 <div className="flex items-center justify-center gap-4 sm:max-w-5xl xs:max-w-9/10 mx-auto mb-6">
