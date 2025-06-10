@@ -19,7 +19,7 @@ const ProjectCard = () => {
                       as="div"
                       className="relative justify-center items-center space-x-2 w-full"
                     >
-                      <div className="flex mt-2 justify-between w-full px-5">
+                      <div className="flex mt-2.5 justify-between w-full px-5">
                         <p className="font-display text-sm font-semibold text-accent4">{item.title}</p>
                         <button onClick={() => setIsOpenIndex(id)} className="flex items-center gap-1 group cursor-pointer">
                           <HiEye className="text-accent4 group-hover:text-accent3 transition duration-300" />
@@ -27,7 +27,7 @@ const ProjectCard = () => {
                         </button>
                       </div>
                       
-                      <div className="relative rounded-xl p-3">
+                      <div className="relative rounded-xl pl-3.5 pr-3.5 pb-3.5 pt-2 ">
                         {item.cover}
                       </div>
                                             

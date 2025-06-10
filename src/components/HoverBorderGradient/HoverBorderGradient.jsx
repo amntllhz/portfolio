@@ -57,7 +57,7 @@ export function HoverBorderGradient({
       )}
       {...props}>
       <div
-        className={cn("w-auto text-white z-10 px-1 py-0.5 rounded-[inherit]", className)}>
+        className={cn("w-full text-white z-10 rounded-[inherit]", className)}>
         {children}
       </div>
       <motion.div
