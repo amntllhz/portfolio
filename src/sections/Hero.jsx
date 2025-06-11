@@ -48,7 +48,7 @@ const Hero = () => {
             />
             </div>
             <div className="flex flex-col items-center justify-center mt-2">
-                <ShinyText text="Transforming Visionary ideas into refined realities Cutting-edge Technology and Innovation" disabled={false} speed={5} className='text-center font-display xs:max-w-xs sm:max-w-md md:max-w-md xs:text-xs sm:text-sm md:text-base' />                
+                <ShinyText text="Transforming brilliant ideas using modern Web stacks, Creative visuals, and Good User Experience" disabled={false} speed={5} className='text-center font-display xs:max-w-xs md:max-w-md lg:max-w-lg xs:text-xs md:text-sm lg:text-base' />                
             </div>
             <div className="flex flex-row items-center justify-center bg-accent1/30 rounded-full px-2.5 py-2 mt-4 sm:gap-x-3 xs:gap-x-1.5">
                 <a href={resume} download={true}>

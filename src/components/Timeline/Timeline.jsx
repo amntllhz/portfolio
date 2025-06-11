@@ -34,9 +34,8 @@ export const Timeline = ({
           Education and Experience
         </h2>
         <p
-          className="text-accent4 font-display sm:text-sm max-w-xs xs:text-center xs:text-xs sm:text-left">
-          I&apos;ve been working on Aceternity for the past 2 years. Here&apos;s
-          a timeline of my journey.
+          className="text-accent4 font-display sm:text-sm xs:max-w-xs lg:max-w-lg xs:text-center xs:text-xs sm:text-left">
+          Blending academic knowledge with self-driven learning and project-based experience to build real solutions
         </p>
       </div>
       <div ref={ref} className="relative max-w-7xl mx-auto pb-20">
