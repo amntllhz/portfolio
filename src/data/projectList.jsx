@@ -42,6 +42,7 @@ const projectList = [
   
     { 
       id : 1,
+      section : "website",
       title: "Internval",
       category : ["Web Development","UI Design"],
       role : ["Fullstack Web Developer","UI/UX Designer"],
@@ -118,6 +119,7 @@ const projectList = [
     },
     { 
       id : 2,
+      section : "website",
       title: "Egoverse",
       category : ["Web Development", "UI Design"],
       role : ["Front-End Developer", "UI/UX Designer"],
@@ -169,6 +171,7 @@ const projectList = [
     },
     { 
       id : 3,
+      section : "website",
       title: "Anaksehat",
       category : ["Web Development", "UI Design"],
       role : ["Fullstack Web Developer", "UI/UX Designer"],
@@ -238,6 +241,7 @@ const projectList = [
     },
     { 
       id : 4,
+      section : "design",
       title: "Secondmarket",
       category : ["UI Design"],
       role : ["UI/UX Designer"],

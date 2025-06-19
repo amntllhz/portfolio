@@ -6,13 +6,60 @@ import { useState, Fragment } from "react"
 import { HiX, HiExternalLink } from "react-icons/hi";
 
 const ProjectCard = () => {     
+    const [activeTab, setActiveTab] = useState('website')
     const [isOpenIndex, setIsOpenIndex] = useState(null)
+
+    const filteredProjects = projectList.filter((project) => project.section === activeTab)
 
     return (
         <>
+          {/* Basic Tabs */}
+          {/* <div className="flex justify-center mb-6">
+            <div className="inline-flex gap-2 rounded-full bg-accent1/30 p-1.5">
+              {["website", "design"].map((tab) => (
+                <button
+                  key={tab}
+                  onClick={() => setActiveTab(tab)}
+                  className={`px-4 py-1 rounded-full font-display text-sm cursor-pointer font-medium capitalize transition-all duration-300
+                    ${activeTab === tab ? "bg-gradient-to-r from-accent1/30 via-accent3/40 to-accent1/30 text-white" : "text-gray-400 hover:text-white"}`}
+                >
+                  {tab === "website" ? "Website" : "Design"}
+                </button>
+              ))}
+            </div>
+          </div> */}
+
+          {/* Sliding Tabs */}
+          <div className="flex justify-center mb-6">
+            <div className="relative inline-flex rounded-full bg-accent1/30 p-1.5">
+              
+              {/* Sliding background */}
+              <span
+                className={`absolute top-1.5 bottom-1.5 left-1.5 w-[calc(50%-0.375rem)] rounded-full bg-gradient-to-r from-accent1/30 via-accent3/20 to-accent1/30 transition-transform duration-300 ease-in-out`}
+                style={{
+                  transform: activeTab === "website" ? "translateX(0%)" : "translateX(100%)",
+                }}
+              />
+
+              {/* Tabs */}
+              {["website", "design"].map((tab) => (
+                <button
+                  key={tab}
+                  onClick={() => setActiveTab(tab)}
+                  className={`relative z-10 px-4 py-1 rounded-full font-display text-sm cursor-pointer font-medium capitalize transition-colors duration-300 ${
+                    activeTab === tab ? "text-white" : "text-gray-400 hover:text-white"
+                  }`}
+                >
+                  {tab === "website" ? "Website" : "Design"}
+                </button>
+              ))}
+            </div>
+          </div>
+
+
           <div className="grid xs:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center lg:max-w-5xl md:max-w-9/10 mx-auto text-center gap-4 w-full xs:max-w-9/10">
 
-                {projectList.map((item, id) => (
+                {filteredProjects.map((item, id) => (
                   <div key={id}>
                     <HoverBorderGradient
                       containerClassName="rounded-2xl w-full"
