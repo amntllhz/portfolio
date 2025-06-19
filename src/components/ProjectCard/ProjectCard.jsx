@@ -35,7 +35,7 @@ const ProjectCard = () => {
               
               {/* Sliding background */}
               <span
-                className={`absolute top-1.5 bottom-1.5 left-1.5 w-[calc(50%-0.375rem)] rounded-full bg-gradient-to-r from-accent1/30 via-accent3/20 to-accent1/30 transition-transform duration-300 ease-in-out`}
+                className={`absolute top-1.5 bottom-1.5 left-1.5 w-[calc(50%-0.375rem)] rounded-full bg-gradient-to-r from-accent1/30 via-accent3/40 to-accent1/30 transition-transform duration-300 ease-in-out`}
                 style={{
                   transform: activeTab === "website" ? "translateX(0%)" : "translateX(100%)",
                 }}
