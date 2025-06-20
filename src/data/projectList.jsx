@@ -10,6 +10,14 @@ import secondmarket7 from "../assets/secondmarket/Artboard 7.webp"
 import secondmarket8 from "../assets/secondmarket/Artboard 8.webp"
 import secondmarket9 from "../assets/secondmarket/Artboard 9.webp"
 
+// egoversedesign images
+import egoversedesign1 from "../assets/egoversedesign/egoversedesign1.webp"
+import egoversedesign2 from "../assets/egoversedesign/egoversedesign2.webp"
+import egoversedesign3 from "../assets/egoversedesign/egoversedesign3.webp"
+import egoversedesign4 from "../assets/egoversedesign/egoversedesign4.webp"
+import egoversedesign5 from "../assets/egoversedesign/egoversedesign5.webp"
+import egoversedesign6 from "../assets/egoversedesign/egoversedesign6.webp"
+
 // egoverse images
 import egoverse1 from "../assets/egoverse/egoverse1.webp"
 import egoverse2 from "../assets/egoverse/egoverse2.webp"
@@ -323,6 +331,76 @@ const projectList = [
               width={500} 
               height={500}
               className="block h-full w-full object-cover " />                                         
+          </div>
+        </div>
+      ),
+    },
+    { 
+      id : 5,
+      section : "design",
+      title: "Egoverse",
+      category : ["Logo Design","Brand Identity"],
+      role : ["Logo Designer","Graphic Designer"],
+      link : "https://www.behance.net/gallery/228593107/e-Government-Services",
+      desc : "eGoverse or E-Government Services is a digitalization service portal for Regional Apparatus Organizations (OPD) which is innovatively designed to facilitate the submission of Clearance, Server, Device and other support services with the aim of increasing the efficiency and performance of Regional Apparatus Organizations (OPD) in Pekalongan Regency.",
+      feature : (
+        <div>          
+          <ul className="list-disc pl-4 font-display text-primary xs:text-xs sm:text-sm text-justify">
+            <li>Easy to apply</li>
+            <li>Beautiful and meaningful shape</li>
+            <li>Describes convenience and availability</li>
+            <li>Responsive in several media</li>            
+            <li>Good Color Contrast</li>
+          </ul>
+        </div>
+      ),
+      techStack : ["Figma", "Adobe Illustrator","Adobe Photoshop"],
+      cover : ( <img
+              src={egoversedesign1}
+              alt="startup template"
+              width={500}
+              height={500}
+              className=" h-full w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-full lg:h-full" />                                    
+      ),      
+      content: (
+        <div>                    
+          <div>            
+            <img
+              src={egoversedesign1}
+              alt="startup template"
+              width={500}
+              height={500}
+              className="block h-full w-full object-cover " />                                    
+            <img
+              src={egoversedesign2}
+              alt="startup template"
+              width={500}
+              height={500}
+              className="block h-full w-full object-cover " />
+            <img
+              src={egoversedesign3}
+              alt="startup template"
+              width={500}
+              height={500}
+              className="block h-full w-full object-cover " />
+            <img
+              src={egoversedesign4}
+              alt="startup template"
+              width={500}
+              height={500}
+              className="block h-full w-full object-cover " />
+            <img
+              src={egoversedesign5}
+              alt="startup template"
+              width={500}
+              height={500}
+              className="block h-full w-full object-cover " />                                    
+            <img
+              src={egoversedesign6}
+              alt="startup template"
+              width={500}
+              height={500}
+              className="block h-full w-full object-cover " />                                                    
           </div>
         </div>
       ),
