@@ -18,6 +18,13 @@ import egoversedesign4 from "../assets/egoversedesign/egoversedesign4.webp"
 import egoversedesign5 from "../assets/egoversedesign/egoversedesign5.webp"
 import egoversedesign6 from "../assets/egoversedesign/egoversedesign6.webp"
 
+// internvaldesign images
+import internvaldesign1 from "../assets/internvaldesign/internvaldesign1.webp"
+import internvaldesign2 from "../assets/internvaldesign/internvaldesign2.webp"
+import internvaldesign3 from "../assets/internvaldesign/internvaldesign3.webp"
+import internvaldesign4 from "../assets/internvaldesign/internvaldesign4.webp"
+import internvaldesign5 from "../assets/internvaldesign/internvaldesign5.webp"
+
 // egoverse images
 import egoverse1 from "../assets/egoverse/egoverse1.webp"
 import egoverse2 from "../assets/egoverse/egoverse2.webp"
@@ -401,6 +408,70 @@ const projectList = [
               width={500}
               height={500}
               className="block h-full w-full object-cover " />                                                    
+          </div>
+        </div>
+      ),
+    },
+    { 
+      id : 6,
+      section : "design",
+      title: "Internval",
+      category : ["Logo Design","Brand Identity"],
+      role : ["Logo Designer","Graphic Designer"],
+      link : "https://www.behance.net/gallery/228659387/Internval",
+      desc : "Internval or internship validation is an online-based internship submission system that is equipped with real-time registration status tracking and an admin dashboard that is very good in terms of functionality and appearance. This system was developed based on students' experience in submitting internship applications manually, which was considered less effective in terms of time.",
+      feature : (
+        <div>          
+          <ul className="list-disc pl-4 font-display text-primary xs:text-xs sm:text-sm text-justify">
+            <li>Easy to apply</li>
+            <li>Modern and meaningful Logo Type</li>
+            <li>Good Combination</li>
+            <li>Responsive in several media</li>            
+            <li>Fresh Color Accent</li>
+          </ul>
+        </div>
+      ),
+      techStack : ["Figma", "Adobe Illustrator","Adobe Photoshop"],
+      cover : ( <img
+              src={internvaldesign1}
+              alt="startup template"
+              width={500}
+              height={500}
+              className=" h-full w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-full lg:h-full" />                                    
+      ),      
+      content: (
+        <div>                    
+          <div>            
+            <img
+              src={internvaldesign1}
+              alt="startup template"
+              width={500}
+              height={500}
+              className="block h-full w-full object-cover " />                                    
+            <img
+              src={internvaldesign2}
+              alt="startup template"
+              width={500}
+              height={500}
+              className="block h-full w-full object-cover " />
+            <img
+              src={internvaldesign3}
+              alt="startup template"
+              width={500}
+              height={500}
+              className="block h-full w-full object-cover " />
+            <img
+              src={internvaldesign4}
+              alt="startup template"
+              width={500}
+              height={500}
+              className="block h-full w-full object-cover " />
+            <img
+              src={internvaldesign5}
+              alt="startup template"
+              width={500}
+              height={500}
+              className="block h-full w-full object-cover " />                                                               
           </div>
         </div>
       ),
