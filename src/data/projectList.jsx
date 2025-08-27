@@ -489,7 +489,7 @@ const projectList = [
       title: "KKN Logo",
       category : ["Logo Design","Brand Identity"],
       role : ["Logo Designer","Graphic Designer"],
-      link : "https://www.behance.net/gallery/228659387/Internval",
+      link : "https://www.behance.net/gallery/233420937/KKN-1-Pasirkratonkramat",
       desc : "This project is a logo design for the 2025 UMPP KKN Group 1 in Pasirkratonkramat Village, Pekalongan City. The logo was designed with a visual approach that combines geographical, cultural, and local historical elements. The logo's shape is inspired by the identity of the coastal area, batik as an icon of Pekalongan, and the history of the formation of Pasirkratonkramat Village. The final result is not only a visual identity, but also a representation of the cultural and social values ​​of the local community that can be applied to various media, from banners, identity cards, to digital media.",
       feature : (
         <div>          
