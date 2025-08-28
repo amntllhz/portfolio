@@ -10,11 +10,20 @@ import secondmarket7 from "../assets/secondmarket/Artboard 7.webp"
 import secondmarket8 from "../assets/secondmarket/Artboard 8.webp"
 import secondmarket9 from "../assets/secondmarket/Artboard 9.webp"
 
-// kknlogo
+// kknlogo images
 import kknlogo1 from "../assets/kknlogo/kknlogo1.webp"
 import kknlogo2 from "../assets/kknlogo/kknlogo2.webp"
 import kknlogo3 from "../assets/kknlogo/kknlogo3.webp"
 import kknlogo4 from "../assets/kknlogo/kknlogo4.webp"
+
+// ganeshacup images
+import gnscup1 from "../assets/gnscup/gnscup1.webp"
+import gnscup2 from "../assets/gnscup/gnscup2.webp"
+import gnscup3 from "../assets/gnscup/gnscup3.webp"
+import gnscup4 from "../assets/gnscup/gnscup4.webp"
+import gnscup5 from "../assets/gnscup/gnscup5.webp"
+import gnscup6 from "../assets/gnscup/gnscup6.webp"
+import gnscup7 from "../assets/gnscup/gnscup7.webp"
 
 // egoversedesign images
 import egoversedesign1 from "../assets/egoversedesign/egoversedesign1.webp"
@@ -58,6 +67,7 @@ import egoversecover from "../assets/egoverse/egoversecover.webp"
 import anaksehatcover from "../assets/anaksehat/anaksehatcover.webp"
 import internvalcover from "../assets/internval/internvalcover.webp"
 import kkncover from "../assets/kknlogo/kkncover.webp"
+import gnscupcover from "../assets/gnscup/gnscupcover.webp"
 
 
 const projectList = [
@@ -537,6 +547,82 @@ const projectList = [
               width={500}
               height={500}
               className="block h-full w-full object-cover " />                                                                       
+          </div>
+        </div>
+      ),
+    },
+    { 
+      id : 8,
+      section : "design",
+      title: "Ganesha Cup II",
+      category : ["Logo Design","Brand Identity"],
+      role : ["Logo Designer","Graphic Designer"],
+      link : "https://www.behance.net/gallery/200653579/GANESHA-CUP-II-2024",
+      desc : "This project is a visual identity and print media design for Ganesha Cup II 2024, an inter-class futsal competition held at SMA Negeri 1 Wonotunggal. The design emphasizes the spirit of joy, unity, and healthy competition, while also highlighting the importance of sports for students. The visual concept combines energetic colors, dynamic typography, and engaging illustrations to create a fun yet professional look that motivates participants and builds excitement around the event.",
+      feature : (
+        <div>          
+          <ul className="list-disc pl-4 font-display text-primary xs:text-xs sm:text-sm text-justify">
+            <li>Energetic Visual Identity</li>
+            <li>Dynamic Typography</li>
+            <li>Versatile Media Application</li>
+            <li>Community and Unity-Oriented</li>            
+            <li>Memorable Event Branding</li>
+          </ul>
+        </div>
+      ),
+      techStack : ["Figma", "Adobe Illustrator","Adobe Photoshop"],
+      cover : ( <img
+              src={gnscupcover}
+              alt="startup template"
+              width={500}
+              height={500}
+              className=" h-full w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-full lg:h-full" />                                    
+      ),      
+      content: (
+        <div>                    
+          <div>            
+            <img
+              src={gnscup1}
+              alt="startup template"
+              width={500}
+              height={500}
+              className="block h-full w-full object-cover " />                                    
+            <img
+              src={gnscup2}
+              alt="startup template"
+              width={500}
+              height={500}
+              className="block h-full w-full object-cover " />
+            <img
+              src={gnscup3}
+              alt="startup template"
+              width={500}
+              height={500}
+              className="block h-full w-full object-cover " />
+            <img
+              src={gnscup4}
+              alt="startup template"
+              width={500}
+              height={500}
+              className="block h-full w-full object-cover " />
+            <img
+              src={gnscup5}
+              alt="startup template"
+              width={500}
+              height={500}
+              className="block h-full w-full object-cover " />
+            <img
+              src={gnscup6}
+              alt="startup template"
+              width={500}
+              height={500}
+              className="block h-full w-full object-cover " />
+            <img
+              src={gnscup7}
+              alt="startup template"
+              width={500}
+              height={500}
+              className="block h-full w-full object-cover " />
           </div>
         </div>
       ),
