@@ -274,25 +274,25 @@ const projectList = [
     { 
       id : 4,
       section : "design",
-      title: "Secondmarket",
-      category : ["UI Design"],
-      role : ["UI/UX Designer"],
-      link : "https://www.behance.net/gallery/190849733/SECONDMARKET-User-Interface",
-      desc : "Secondmarket is an interface design for an application for buying and selling used clothes in a condition that is still very suitable for sale. This is because sellers of such items often sell them on inappropriate platforms, which can lead to misunderstandings for some customers who are not careful and think that the item is new.",
+      title: "KKN Logo",
+      category : ["Logo Design","Brand Identity"],
+      role : ["Logo Designer","Graphic Designer"],
+      link : "https://www.behance.net/gallery/233420937/KKN-1-Pasirkratonkramat",
+      desc : "This project is a logo design for the 2025 UMPP KKN Group 1 in Pasirkratonkramat Village, Pekalongan City. The logo was designed with a visual approach that combines geographical, cultural, and local historical elements. The logo's shape is inspired by the identity of the coastal area, batik as an icon of Pekalongan, and the history of the formation of Pasirkratonkramat Village. The final result is not only a visual identity, but also a representation of the cultural and social values ​​of the local community that can be applied to various media, from banners, identity cards, to digital media.",
       feature : (
         <div>          
           <ul className="list-disc pl-4 font-display text-primary xs:text-xs sm:text-sm text-justify">
-            <li>User-friendly Interface</li>
-            <li>Visually Appealing Home & Product Browsing</li>
-            <li>Clear and Informative Product Detail Pages</li>            
-            <li>Seamless Selling Experience</li>
-            <li>Good Color Contrast</li>
+            <li>Contextual to the Area</li>
+            <li>Celebrates Local Culture</li>
+            <li>Carries Historical Values</li>
+            <li>Iconic and Memorable</li>            
+            <li>Connected to Local Landmarks</li>
           </ul>
         </div>
       ),
       techStack : ["Figma", "Adobe Illustrator","Adobe Photoshop"],
       cover : ( <img
-              src={secondmarket1}
+              src={kkncover}
               alt="startup template"
               width={500}
               height={500}
@@ -302,59 +302,29 @@ const projectList = [
         <div>                    
           <div>            
             <img
-              src={secondmarket1}
+              src={kkncover}
               alt="startup template"
               width={500}
               height={500}
               className="block h-full w-full object-cover " />                                    
             <img
-              src={secondmarket2}
+              src={kknlogo2}
               alt="startup template"
               width={500}
               height={500}
               className="block h-full w-full object-cover " />
             <img
-              src={secondmarket3}
+              src={kknlogo3}
               alt="startup template"
               width={500}
               height={500}
               className="block h-full w-full object-cover " />
             <img
-              src={secondmarket4}
+              src={kknlogo4}
               alt="startup template"
               width={500}
               height={500}
-              className="block h-full w-full object-cover " />
-            <img
-              src={secondmarket5}
-              alt="startup template"
-              width={500}
-              height={500}
-              className="block h-full w-full object-cover " />                                    
-            <img
-              src={secondmarket7}
-              alt="startup template"
-              width={500}
-              height={500}
-              className="block h-full w-full object-cover " />
-            <img
-              src={secondmarket8}
-              alt="startup template"
-              width={500}
-              height={500}
-              className="block h-full w-full object-cover " />
-            <img
-              src={secondmarket9}
-              alt="startup template"
-              width={500}
-              height={500}
-              className="block h-full w-full object-cover " />     
-            <img
-              src={secondmarket6}
-              alt="startup template"
-              width={500} 
-              height={500}
-              className="block h-full w-full object-cover " />                                         
+              className="block h-full w-full object-cover " />                                                                       
           </div>
         </div>
       ),
@@ -492,67 +462,9 @@ const projectList = [
           </div>
         </div>
       ),
-    },
+    },    
     { 
       id : 7,
-      section : "design",
-      title: "KKN Logo",
-      category : ["Logo Design","Brand Identity"],
-      role : ["Logo Designer","Graphic Designer"],
-      link : "https://www.behance.net/gallery/233420937/KKN-1-Pasirkratonkramat",
-      desc : "This project is a logo design for the 2025 UMPP KKN Group 1 in Pasirkratonkramat Village, Pekalongan City. The logo was designed with a visual approach that combines geographical, cultural, and local historical elements. The logo's shape is inspired by the identity of the coastal area, batik as an icon of Pekalongan, and the history of the formation of Pasirkratonkramat Village. The final result is not only a visual identity, but also a representation of the cultural and social values ​​of the local community that can be applied to various media, from banners, identity cards, to digital media.",
-      feature : (
-        <div>          
-          <ul className="list-disc pl-4 font-display text-primary xs:text-xs sm:text-sm text-justify">
-            <li>Contextual to the Area</li>
-            <li>Celebrates Local Culture</li>
-            <li>Carries Historical Values</li>
-            <li>Iconic and Memorable</li>            
-            <li>Connected to Local Landmarks</li>
-          </ul>
-        </div>
-      ),
-      techStack : ["Figma", "Adobe Illustrator","Adobe Photoshop"],
-      cover : ( <img
-              src={kkncover}
-              alt="startup template"
-              width={500}
-              height={500}
-              className=" h-full w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-full lg:h-full" />                                    
-      ),      
-      content: (
-        <div>                    
-          <div>            
-            <img
-              src={kkncover}
-              alt="startup template"
-              width={500}
-              height={500}
-              className="block h-full w-full object-cover " />                                    
-            <img
-              src={kknlogo2}
-              alt="startup template"
-              width={500}
-              height={500}
-              className="block h-full w-full object-cover " />
-            <img
-              src={kknlogo3}
-              alt="startup template"
-              width={500}
-              height={500}
-              className="block h-full w-full object-cover " />
-            <img
-              src={kknlogo4}
-              alt="startup template"
-              width={500}
-              height={500}
-              className="block h-full w-full object-cover " />                                                                       
-          </div>
-        </div>
-      ),
-    },
-    { 
-      id : 8,
       section : "design",
       title: "Ganesha Cup II",
       category : ["Logo Design","Brand Identity"],
@@ -626,7 +538,95 @@ const projectList = [
           </div>
         </div>
       ),
-    },    
+    },
+    { 
+      id : 8,
+      section : "design",
+      title: "Secondmarket",
+      category : ["UI Design"],
+      role : ["UI/UX Designer"],
+      link : "https://www.behance.net/gallery/190849733/SECONDMARKET-User-Interface",
+      desc : "Secondmarket is an interface design for an application for buying and selling used clothes in a condition that is still very suitable for sale. This is because sellers of such items often sell them on inappropriate platforms, which can lead to misunderstandings for some customers who are not careful and think that the item is new.",
+      feature : (
+        <div>          
+          <ul className="list-disc pl-4 font-display text-primary xs:text-xs sm:text-sm text-justify">
+            <li>User-friendly Interface</li>
+            <li>Visually Appealing Home & Product Browsing</li>
+            <li>Clear and Informative Product Detail Pages</li>            
+            <li>Seamless Selling Experience</li>
+            <li>Good Color Contrast</li>
+          </ul>
+        </div>
+      ),
+      techStack : ["Figma", "Adobe Illustrator","Adobe Photoshop"],
+      cover : ( <img
+              src={secondmarket1}
+              alt="startup template"
+              width={500}
+              height={500}
+              className=" h-full w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-full lg:h-full" />                                    
+      ),      
+      content: (
+        <div>                    
+          <div>            
+            <img
+              src={secondmarket1}
+              alt="startup template"
+              width={500}
+              height={500}
+              className="block h-full w-full object-cover " />                                    
+            <img
+              src={secondmarket2}
+              alt="startup template"
+              width={500}
+              height={500}
+              className="block h-full w-full object-cover " />
+            <img
+              src={secondmarket3}
+              alt="startup template"
+              width={500}
+              height={500}
+              className="block h-full w-full object-cover " />
+            <img
+              src={secondmarket4}
+              alt="startup template"
+              width={500}
+              height={500}
+              className="block h-full w-full object-cover " />
+            <img
+              src={secondmarket5}
+              alt="startup template"
+              width={500}
+              height={500}
+              className="block h-full w-full object-cover " />                                    
+            <img
+              src={secondmarket7}
+              alt="startup template"
+              width={500}
+              height={500}
+              className="block h-full w-full object-cover " />
+            <img
+              src={secondmarket8}
+              alt="startup template"
+              width={500}
+              height={500}
+              className="block h-full w-full object-cover " />
+            <img
+              src={secondmarket9}
+              alt="startup template"
+              width={500}
+              height={500}
+              className="block h-full w-full object-cover " />     
+            <img
+              src={secondmarket6}
+              alt="startup template"
+              width={500} 
+              height={500}
+              className="block h-full w-full object-cover " />                                         
+          </div>
+        </div>
+      ),
+    },
 ];
 
 export default projectList
