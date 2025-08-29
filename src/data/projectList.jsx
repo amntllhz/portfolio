@@ -78,7 +78,7 @@ const projectList = [
       title: "Internval",
       category : ["Web Development","UI Design"],
       role : ["Fullstack Web Developer","UI/UX Designer"],
-      link : "https://github.com/amntllhz/internval",
+      link : "",
       desc : "Internval is a web-based application designed to streamline the internship application and tracking process for university students. This platform allows students to submit internship applications to various institutions and monitor the status of their submissions in real-time. Administrators and faculty can manage and verify submissions efficiently through an intuitive Filament-powered dashboard.",
       feature : (
         <div>          
@@ -207,7 +207,7 @@ const projectList = [
       title: "Anaksehat",
       category : ["Web Development", "UI Design"],
       role : ["Fullstack Web Developer", "UI/UX Designer"],
-      link : "https://github.com/amntllhz/anaksehat",
+      link : "",
       desc : "Anaksehat is a website that contains nutritional information equipped with a toddler nutritional status calculation system using the z-score method according to standards. This website was created as an effort to reduce stunting in Indonesia through the dissemination of nutritional information and flexibility in checking the nutritional status of toddlers.",
       feature : (
         <div>          
